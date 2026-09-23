@@ -4,84 +4,501 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barra Funda Pizza e Vinho - Cardápio</title>
-    <!-- Conectando o arquivo CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <h1>Barra Funda Pizza e Vinho</h1>
-            <p>A melhor experiência da região</p>
+            <p>A melhor pizza da região!</p>
         </div>
     </header>
 
     <main class="container">
-        <!-- Botões de Filtro -->
         <div class="filters">
-            <button class="filter-btn active" data-filter="all">Todos</button>
-            <button class="filter-btn" data-filter="tradicional">Tradicionais</button>
-            <button class="filter-btn" data-filter="especial">Especiais da Casa</button>
+            <button class="filter-btn active" data-filter="all">Todas as Pizzas</button>
+            <button class="filter-btn" data-filter="salgada">Salgadas</button>
             <button class="filter-btn" data-filter="doce">Doces</button>
-            <button class="filter-btn" data-filter="bebida">Vinhos & Bebidas</button>
         </div>
 
-        <!-- Lista de Produtos -->
         <div class="menu-grid">
             
-            <!-- Pizza Tradicional -->
-            <div class="menu-item" data-category="tradicional">
-                <h3>Mussarela</h3>
-                <p class="description">Molho de tomate, mussarela e orégano fresco.</p>
+            <!-- PIZZAS SALGADAS -->
+            <div class="menu-item" data-category="salgada">
+                <h3>1. Mussarela</h3>
+                <p class="description">Mussarela, orégano e azeitona</p>
                 <div class="prices">
-                    <span>Grande: R$ 50,00</span>
-                    <span>Broto: R$ 35,00</span>
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 29,90</span>
                 </div>
             </div>
 
-            <div class="menu-item" data-category="tradicional">
-                <h3>Marguerita</h3>
-                <p class="description">Mussarela, rodelas de tomate, parmesão e manjericão.</p>
+            <div class="menu-item" data-category="salgada">
+                <h3>2. Calabresa</h3>
+                <p class="description">Calabresa fatiada coberta com cebola</p>
                 <div class="prices">
-                    <span>Grande: R$ 55,00</span>
-                    <span>Broto: R$ 38,00</span>
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 29,90</span>
                 </div>
             </div>
 
-            <!-- Pizza Especial -->
-            <div class="menu-item" data-category="especial">
-                <h3>A Moda Barra Funda</h3>
-                <p class="description">Mussarela, lombo canadense, champignon, bacon e cebola.</p>
+            <div class="menu-item" data-category="salgada">
+                <h3>3. Catupiry</h3>
+                <p class="description">Mussarela coberta com catupiry</p>
                 <div class="prices">
-                    <span>Grande: R$ 68,00</span>
-                    <span>Broto: R$ 45,00</span>
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 34,90</span>
                 </div>
             </div>
 
-            <div class="menu-item" data-category="especial">
-                <h3>Portugália</h3>
-                <p class="description">Mussarela, presunto, ovos, ervilha, palmito e cebola.</p>
+            <div class="menu-item" data-category="salgada">
+                <h3>4. Alho e Óleo</h3>
+                <p class="description">Mussarela coberta com alho frito</p>
                 <div class="prices">
-                    <span>Grande: R$ 65,00</span>
-                    <span>Broto: R$ 42,00</span>
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 29,90</span>
                 </div>
             </div>
 
-            <!-- Pizza Doce -->
+            <div class="menu-item" data-category="salgada">
+                <h3>5. Aliche</h3>
+                <p class="description">Aliche, mussarela e parmesão ralado</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>6. Abobrinha</h3>
+                <p class="description">Mussarela, abobrinha fatiada com champignon</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 45,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>7. Anhanguera</h3>
+                <p class="description">Atum, catupiry, mussarela e fatias de tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>8. Atum</h3>
+                <p class="description">Atum com cebola, parmesão ralado e tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 34,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>9. Atum c/ Catupiry</h3>
+                <p class="description">Atum, cebola com catupiry ou mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 75,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>10. Bacon</h3>
+                <p class="description">Mussarela coberta com bacon frito</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 35,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>11. Baiana</h3>
+                <p class="description">Calabresa moída, ovos, cebola e pimenta</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>12. Bauru</h3>
+                <p class="description">Presunto, mussarela e rodelas de tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>13. Berinjela</h3>
+                <p class="description">Mussarela, berinjela e champignon</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>14. Brócolis</h3>
+                <p class="description">Brócolis temperado e picado com mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>15. Camarão</h3>
+                <p class="description">Camarão frito coberto com mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 79,90</span>
+                    <span>Broto: R$ 49,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>16. Camarão Especial</h3>
+                <p class="description">Camarão frito, palmito, ervilha com catupiry</p>
+                <div class="prices">
+                    <span>Grande: R$ 89,90</span>
+                    <span>Broto: R$ 54,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>17. Champignon</h3>
+                <p class="description">Champignon e mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>18. Dois Queijos</h3>
+                <p class="description">Mussarela e o Legítimo Catupiry</p>
+                <div class="prices">
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>19. Escaliche</h3>
+                <p class="description">Escarola coberta com mussarela e aliche</p>
+                <div class="prices">
+                    <span>Grande: R$ 66,90</span>
+                    <span>Broto: R$ 37,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>20. Escarola</h3>
+                <p class="description">Escarola temperada coberta com mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>21. Frango á Jardineira</h3>
+                <p class="description">Frango desfiado coberto com mussarela e bacon</p>
+                <div class="prices">
+                    <span>Grande: R$ 67,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>22. Frango á Caipira</h3>
+                <p class="description">Frango desfiado, milho e Catupiry</p>
+                <div class="prices">
+                    <span>Grande: R$ 65,90</span>
+                    <span>Broto: R$ 37,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>23. Frango com Catupiry</h3>
+                <p class="description">Frango desfiado com Catupiry ou cheddar</p>
+                <div class="prices">
+                    <span>Grande: R$ 54,90</span>
+                    <span>Broto: R$ 34,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>24. Jardineira</h3>
+                <p class="description">Provolone coberto com Catupiry e bacon</p>
+                <div class="prices">
+                    <span>Grande: R$ 66,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>25. Light</h3>
+                <p class="description">Peito de peru fatiado, queijo branco e rúcula</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>26. Lombinho</h3>
+                <p class="description">Lombinho fatiado coberto com mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>27. Marguerita</h3>
+                <p class="description">Mussarela, fatias de tomate e manjericão</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>28. Milho Verde</h3>
+                <p class="description">Mussarela coberta com milho</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 37,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>29. Moda da Casa</h3>
+                <p class="description">Calabresa, champignon e Catupiry</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>30. Mussarela de Búfala</h3>
+                <p class="description">Mussarela de búfala com tomate seco</p>
+                <div class="prices">
+                    <span>Grande: R$ 65,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>31. Napolitana</h3>
+                <p class="description">Mussarela, fatias de tomate e parmesão ralado</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>32. Palmito</h3>
+                <p class="description">Palmito coberto com mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>33. Peito de Peru</h3>
+                <p class="description">Peito de peru fatiado, mussarela ou Catupiry</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>34. Peperoni</h3>
+                <p class="description">Mussarela coberta com pepperoni e cebola</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 45,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>35. Portugália</h3>
+                <p class="description">Peito de peru com mussarela e tomate seco</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>36. Portuguesa</h3>
+                <p class="description">Presunto, cebola, ovo picado e mussarela</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 34,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>37. Portuguesa Especial</h3>
+                <p class="description">Presunto, cebola, ovo, ervilha, catupiry e parmesão</p>
+                <div class="prices">
+                    <span>Grande: R$ 75,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>38. Quatro Queijos</h3>
+                <p class="description">Mussarela, Catupiry, provolone e gorgonzola</p>
+                <div class="prices">
+                    <span>Grande: R$ 54,90</span>
+                    <span>Broto: R$ 35,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>39. Romana</h3>
+                <p class="description">Mussarela, aliche e fatias de tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>40. Rúcula</h3>
+                <p class="description">Mussarela de búfala, rúcula e tomate seco</p>
+                <div class="prices">
+                    <span>Grande: R$ 65,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>41. Salgueiro</h3>
+                <p class="description">Presunto, escarola, mussarela e bacon</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 44,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>42. Siciliana</h3>
+                <p class="description">Champignon, bacon, mussarela e parmesão</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>43. Toscana</h3>
+                <p class="description">Calabresa moída, mussarela e tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 34,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="salgada">
+                <h3>44. Vegetariana</h3>
+                <p class="description">Ervilha, palmito, milho, escarola coberta com mussarela e rodelas de tomate</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <!-- PIZZAS DOCES -->
             <div class="menu-item" data-category="doce">
-                <h3>Romeu e Julieta</h3>
-                <p class="description">Goiabada cremosa e queijo minas fresco.</p>
+                <h3>50. Banana</h3>
+                <p class="description">Banana, mussarela e canela</p>
                 <div class="prices">
-                    <span>Grande: R$ 55,00</span>
-                    <span>Broto: R$ 38,00</span>
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 29,90</span>
                 </div>
             </div>
 
-            <!-- Bebida -->
-            <div class="menu-item" data-category="bebida">
-                <h3>Vinho Tinto da Casa</h3>
-                <p class="description">Garrafa 750ml</p>
+            <div class="menu-item" data-category="doce">
+                <h3>51. Banana com Chocolate</h3>
+                <p class="description">Banana com chocolate Harold</p>
                 <div class="prices">
-                    <span class="single-price">Valor: R$ 75,00</span>
+                    <span>Grande: R$ 44,90</span>
+                    <span>Broto: R$ 29,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>52. Chocolate</h3>
+                <p class="description">Chocolate, coco ralado e chocolate granulado</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>53. Doce de Leite</h3>
+                <p class="description">Doce de leite e coco ralado</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>54. Romeu e Julieta</h3>
+                <p class="description">Mussarela coberta com goiabada</p>
+                <div class="prices">
+                    <span>Grande: R$ 75,90</span>
+                    <span>Broto: R$ 39,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>55. Prestígio</h3>
+                <p class="description">Chocolate, coco ralado e chocolate granulado</p>
+                <div class="prices">
+                    <span>Grande: R$ 49,90</span>
+                    <span>Broto: R$ 33,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>56. Nutela</h3>
+                <p class="description">Nutela pura com chocolate granulado</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 44,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>57. M&M</h3>
+                <p class="description">Chocolate com M&Ms</p>
+                <div class="prices">
+                    <span>Grande: R$ 59,90</span>
+                    <span>Broto: R$ 34,90</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="doce">
+                <h3>58. Chocolate com Morango</h3>
+                <p class="description">Chocolate e morangos</p>
+                <div class="prices">
+                    <span>Grande: R$ 69,90</span>
+                    <span>Broto: R$ 45,90</span>
                 </div>
             </div>
 
@@ -90,14 +507,12 @@
 
     <footer class="footer">
         <div class="container">
-            <p>📍 Barra Funda, São Paulo - SP</p>
-            <p>🕒 Terça a Domingo, das 18h às 23h</p>
-            <!-- Substitua pelo seu número no link abaixo -->
-            <a href="https://wa.me/5511900000000" class="whatsapp-btn" target="_blank">Fazer Pedido pelo WhatsApp</a>
+            <p>📍 Rua Anhanguera, 129 - Barra Funda, São Paulo - SP</p>
+            <p>🛵 Delivery: (11) 2337-8409</p>
+            <p>Não cobramos taxa de entrega até 1 Km</p>
         </div>
     </footer>
 
-    <!-- Conectando o arquivo JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
