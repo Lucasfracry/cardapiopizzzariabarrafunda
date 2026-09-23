@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra Funda Pizza e Vinho - Cardápio</title>
+    <!-- Conectando o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Barra Funda Pizza e Vinho</h1>
+            <p>A melhor experiência da região</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Botões de Filtro -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="tradicional">Tradicionais</button>
+            <button class="filter-btn" data-filter="especial">Especiais da Casa</button>
+            <button class="filter-btn" data-filter="doce">Doces</button>
+            <button class="filter-btn" data-filter="bebida">Vinhos & Bebidas</button>
+        </div>
+
+        <!-- Lista de Produtos -->
+        <div class="menu-grid">
+            
+            <!-- Pizza Tradicional -->
+            <div class="menu-item" data-category="tradicional">
+                <h3>Mussarela</h3>
+                <p class="description">Molho de tomate, mussarela e orégano fresco.</p>
+                <div class="prices">
+                    <span>Grande: R$ 50,00</span>
+                    <span>Broto: R$ 35,00</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="tradicional">
+                <h3>Marguerita</h3>
+                <p class="description">Mussarela, rodelas de tomate, parmesão e manjericão.</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,00</span>
+                    <span>Broto: R$ 38,00</span>
+                </div>
+            </div>
+
+            <!-- Pizza Especial -->
+            <div class="menu-item" data-category="especial">
+                <h3>A Moda Barra Funda</h3>
+                <p class="description">Mussarela, lombo canadense, champignon, bacon e cebola.</p>
+                <div class="prices">
+                    <span>Grande: R$ 68,00</span>
+                    <span>Broto: R$ 45,00</span>
+                </div>
+            </div>
+
+            <div class="menu-item" data-category="especial">
+                <h3>Portugália</h3>
+                <p class="description">Mussarela, presunto, ovos, ervilha, palmito e cebola.</p>
+                <div class="prices">
+                    <span>Grande: R$ 65,00</span>
+                    <span>Broto: R$ 42,00</span>
+                </div>
+            </div>
+
+            <!-- Pizza Doce -->
+            <div class="menu-item" data-category="doce">
+                <h3>Romeu e Julieta</h3>
+                <p class="description">Goiabada cremosa e queijo minas fresco.</p>
+                <div class="prices">
+                    <span>Grande: R$ 55,00</span>
+                    <span>Broto: R$ 38,00</span>
+                </div>
+            </div>
+
+            <!-- Bebida -->
+            <div class="menu-item" data-category="bebida">
+                <h3>Vinho Tinto da Casa</h3>
+                <p class="description">Garrafa 750ml</p>
+                <div class="prices">
+                    <span class="single-price">Valor: R$ 75,00</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>📍 Barra Funda, São Paulo - SP</p>
+            <p>🕒 Terça a Domingo, das 18h às 23h</p>
+            <!-- Substitua pelo seu número no link abaixo -->
+            <a href="https://wa.me/5511900000000" class="whatsapp-btn" target="_blank">Fazer Pedido pelo WhatsApp</a>
+        </div>
+    </footer>
+
+    <!-- Conectando o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
