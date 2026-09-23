@@ -172,3 +172,46 @@ body {
         gap: 0.5rem;
     }
 }
+
+/* Botão Flutuante do WhatsApp */
+.whatsapp-floating {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Garante que o botão fique em cima de todos os outros elementos */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-floating:hover {
+    background-color: #20BA56;
+    transform: scale(1.1);
+}
+
+.whatsapp-floating svg {
+    width: 35px;
+    height: 35px;
+    fill: white;
+}
+
+/* Ajuste para telas menores (celulares) */
+@media (max-width: 480px) {
+    .whatsapp-floating {
+        bottom: 15px;
+        right: 15px;
+        width: 55px;
+        height: 55px;
+    }
+    .whatsapp-floating svg {
+        width: 30px;
+        height: 30px;
+    }
+}
